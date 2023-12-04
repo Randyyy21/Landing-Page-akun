@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>LOGIN</h1>
+        </div>
+        <div class="form">
+            <form> 
+                <input type="text" placeholder="Username" id="nameLogin" autocomplete="off" required><br>
+                <input type="password" placeholder="Password" id="passwordLogin"  required><br>
+                <a href="">Lupa Password</a>
+                <button type="submit" value="login" onclick="login()">LOGIN</button><br>
+                <span>Jika belum register silahkan isi form <a href="Register.html">register</a> </span>
+            </form>
+            
+        </div>
+        
+    </div>
+</body>
+<script src="Form Login.js"></script>
+<!-- Saya mengubah onclick="Login()" menjadi onsubmit="event.preventDefault(); login();". 
+Ini akan mencegah halaman dari refresh saat form disubmit dan memanggil fungsi login(). -->
+</html>

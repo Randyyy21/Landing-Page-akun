@@ -1,0 +1,11 @@
+## Bing
+Untuk mengambil data username dan password dari local storage, Anda bisa menggunakan metode getItem() yang disediakan oleh Web Storage API. Berikut adalah contoh penggunaannya dalam JavaScript:
+
+// Mengambil data username
+var username = localStorage.getItem('username');
+
+// Mengambil data password
+var password = localStorage.getItem('password');
+
+Dalam contoh di atas, 'username' dan 'password' adalah kunci yang digunakan saat menyimpan data ke local storage. Anda harus mengganti 'username' dan 'password' dengan kunci yang sesuai yang Anda gunakan saat menyimpan data.
+Namun, perlu diingat bahwa menyimpan data sensitif seperti password di local storage bukanlah praktik terbaik untuk keamanan data pengguna. Anda mungkin ingin mempertimbangkan penggunaan teknologi yang lebih aman seperti cookies yang aman atau token JWT.

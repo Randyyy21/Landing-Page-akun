@@ -1,0 +1,13 @@
+## Bing
+Berikut adalah algoritma sederhana untuk membuat form register dan login menggunakan local storage:
+Form Register:
+- Tampilkan form dengan field: username, password, dan tombol submit.
+- Ketika user mengisi form dan menekan tombol submit, ambil data dari field username dan password.
+- Cek apakah data username dan password sudah ada di local storage. Jika ya, beri pesan bahwa username sudah terdaftar.
+- Jika tidak, simpan data username dan password ke dalam local storage.
+Form Login:
+- Tampilkan form dengan field: username, password, dan tombol submit.
+- Ketika user mengisi form dan menekan tombol submit, ambil data dari field username dan password.
+- Cek apakah data username dan password cocok dengan data yang ada di local storage. Jika ya, beri pesan bahwa login berhasil.
+- Jika tidak, beri pesan bahwa username atau password salah.
+Harap dicatat bahwa ini adalah algoritma dasar dan mungkin perlu disesuaikan sesuai dengan kebutuhan Anda. Selain itu, penyimpanan data sensitif seperti kata sandi di local storage bukanlah praktik terbaik untuk keamanan data pengguna. Anda mungkin ingin mempertimbangkan penggunaan teknologi yang lebih aman seperti cookies yang aman atau token JWT.

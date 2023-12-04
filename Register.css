@@ -1,0 +1,64 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    margin: 250px auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 2px orange;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.container .header {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.form {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #9a3232;
+}
+
+.form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#buttom:hover {
+    color: black;
+    background-color: rgb(179, 132, 44);
+    transition: 1s ease-in-out;
+
+}
+
+span a {
+    color: rgb(52, 52, 139);
+    text-decoration: none;
+}
+
