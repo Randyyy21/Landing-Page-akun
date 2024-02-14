@@ -17,6 +17,6 @@ function register() {
     } else {
         localStorage.setItem('username', nameRegister.value);
         localStorage.setItem('password', passwordRegister.value);
-        window.open('Login.html', "_blank")
+        window.open('index.html', "_blank")
     }
 }
